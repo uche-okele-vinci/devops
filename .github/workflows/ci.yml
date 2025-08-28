@@ -3,6 +3,8 @@ name: CI
 on:
   pull_request:
     branches: [ "main" ]
+  push:
+    branches: [ "main" ]
 
 jobs:
   test:
@@ -15,5 +17,5 @@ jobs:
           node-version: '20'
           cache: 'npm'
 
-      - run: npm ci
-      - run: npm test -- --ci
+      - run: npm install
+      - run: npm test
