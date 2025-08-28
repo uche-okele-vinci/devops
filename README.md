@@ -27,4 +27,5 @@ To ensure code reliability, a **CI pipeline** is configured using GitHub Actions
 ##  How to Run the Tests
 
 ```bash
+npm install
 npm test
