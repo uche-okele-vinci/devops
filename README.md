@@ -1,11 +1,11 @@
-# devops
+# email_validator
 
 **Author**: Uche  
 **Email**: uche.okele@student.vinci.be  
 **GitHub Repository**: https://github.com/uche-okele-vinci/devops.git
 
 
-## Project Overview
+## Project Overvie
 
 This project is part of the BIMV2190 DevOps exam. It implements an email validation function using **Test-Driven Development (TDD)** and integrates a **Continuous Integration (CI)** pipeline via **GitHub Actions**.
 
